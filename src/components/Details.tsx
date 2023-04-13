@@ -15,7 +15,7 @@ const Details: React.FC<DetailsProps> = ({location}) => {
         text-[12px] gap-1 flex-wrap
       ">
         <h2>IP ADDRESS</h2>
-        <span className="text-lg font-semibold">{location?.ip}</span>
+        <span className="text-[15px] font-semibold">{location?.ip}</span>
       </div>
       <div className="border-l-2 h-[80%] border-slate-300 md:block hidden" />
       <hr className="md:hidden w-[80%]"/>
@@ -23,7 +23,7 @@ const Details: React.FC<DetailsProps> = ({location}) => {
         text-[12px] gap-1 flex-wrap
       ">
         <h2>LOCATION</h2>
-        <span className="text-lg font-semibold">{location?.city}, {location?.state}, {location?.country}</span>
+        <span className="text-[15px] font-semibold">{location?.city}, {location?.state}, {location?.country}</span>
       </div>
       <div className="border-l-2 h-[80%] border-slate-300 md:block hidden" />
       <hr className="md:hidden w-[80%]"/>
@@ -31,7 +31,7 @@ const Details: React.FC<DetailsProps> = ({location}) => {
         text-[12px] gap-1 flex-wrap
       ">
         <h2>TIMEZONE</h2>
-        <span className="text-lg font-semibold">UTC  {newTime}</span>
+        <span className="text-[15px] font-semibold">UTC  {newTime}</span>
       </div>
       <div className="border-l-2 h-[80%] border-slate-300 md:block hidden" />
       <hr className="md:hidden w-[80%]"/>
@@ -39,7 +39,7 @@ const Details: React.FC<DetailsProps> = ({location}) => {
         text-[12px] gap-1 flex-wrap
       ">
         <h2>ISP</h2>
-        <span className="text-lg font-semibold wrap text-center">{location?.org}</span>
+        <span className="text-[15px] font-semibold wrap text-center">{location?.org}</span>
       </div>
     </div>
   );
